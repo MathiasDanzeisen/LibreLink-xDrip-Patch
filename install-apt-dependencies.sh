@@ -8,7 +8,6 @@ WHITE='\033[1;37m'
 YELLOW='\033[1;33m'
 
 WORKDIR=$(pwd)
-FILENAME='com.freestylelibre.app.de_2019-04-22'
 
 echo -e "${WHITE}Installiere benötigte Tools ...${NORMAL}"
 sudo apt-get install git wget apksigner zipalign android-framework-res
