@@ -35,7 +35,7 @@ echo "Info: Debian liefert eine nicht ohne weiteres funktionierende 'dirty'-Vers
 mkdir -p tools
 wget -q -O tools/apktool https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool
 chmod 755 tools/apktool
-wget -O tools/apktool.jar https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.4.0.jar
+wget -O tools/apktool.jar https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.5.0.jar
 if [ $? = 0 ]; then
   echo -e "${GREEN}  okay.${NORMAL}"
   echo
